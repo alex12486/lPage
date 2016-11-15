@@ -1,0 +1,66 @@
+footer
+	@extend %bg-img
+
+	
+	.lockup
+		+clearfix
+		padding: 50px 30px
+
+	.logo
+		+size(50px)
+		float: left
+		margin-right: 30px
+
+		svg
+			+size(50px)
+			path
+				fill: rgba(0,0,0,.5)
+	
+	.content-wrap
+		float: left
+
+		.copyright
+			@extend %small-bold
+			color: rgba(0,0,0,.4)
+			margin: 0
+
+		a
+			@extend %small-bold
+			color: rgba(0,0,0,.5)
+			display: inline-block
+			margin-right: 30px
+
+			&:hover
+				color: rgba(0,0,0,1)
+
+			&:visited, &:focus
+				color: rgba(0,0,0,.5)
+
+
+@media (max-width: 640px)
+	footer 
+		.lockup
+			padding: 50px 0
+
+		.logo
+			float: none
+			margin: 0 auto
+			padding: 20px 0
+		
+		.content-wrap
+			float: none
+			text-align: center
+
+
+		nav
+			float: none
+			margin: 0
+
+			a:nth-child(4)
+				margin-right: 0
+
+
+		h1
+			margin: 0
+			padding-top: 50px
+			padding-bottom: 15px

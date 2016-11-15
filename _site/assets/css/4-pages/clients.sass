@@ -1,0 +1,147 @@
+.section-clients
+	position: relative
+
+
+.clients-belt
+	width: 100%
+	position: relative
+
+	.client-unit
+		max-width: 750px
+		margin: 50px auto
+		+display(flex)
+		position: relative
+		display: none
+
+		&.active-client
+			+display(flex)
+
+		.client-face
+			min-width: 300px
+			text-align: center
+
+			img
+				border-radius: 50%
+				max-width: 100px
+
+			.client-name
+				display: block
+				text-transform: uppercase
+				font-weight: 400
+				letter-spacing: 1px
+
+			.client-title
+				font-style: normal
+				font-size: 12px
+				color: #999
+
+		.client-content
+			font-size: 18px
+			line-height: 36px
+			font-weight: 300
+			margin-top: -10px
+			position: relative
+
+.clients-logos
+	position: relative
+	+display(flex)
+	max-width: 750px
+	margin: 50px auto 100px
+	+align-items(flex-end)
+	+justify-content(space-around)
+
+
+	.client-logo
+		cursor: pointer
+		margin: 0 20px
+		padding-bottom: 10px
+		border-bottom: 4px solid transparent
+		opacity: 0.5
+
+		&.active-client
+			border-bottom: 4px solid $accent
+			opacity: 1
+
+
+.client-quote-mark
+	+position(absolute, -18px null null -15px)
+	+size(60px)
+	z-index: -1
+	opacity: .3
+
+	path
+		fill: $accent
+
+
+.client-controls
+	+position(absolute, 0 0 0 0)
+
+	> div
+		+size(40px)
+		margin-top: -20px
+		display: block
+
+
+	.client-control-next
+		+position(absolute, 50% 10px null null)
+		cursor: pointer
+		z-index: 10
+
+		svg
+			+size(40px)
+
+	.client-control-prev
+		+position(absolute, 50% null null 10px)
+		cursor: pointer
+		z-index: 10
+
+		svg
+			+size(40px)
+
+
+.clients-mobile-nav
+	text-align: center
+	display: none
+
+
+	.mobile-item
+		cursor: pointer !important
+		display: inline-block
+		+size(16px)
+		border-radius: 50%
+		border: solid 2px $bgcolor
+		margin: 0 10px
+		z-index: 10
+
+		&.active-client
+			border-color: $accent
+
+
+
+@media screen and (max-width: 750px)
+	.clients-mobile-nav
+		display: block
+	.client-controls 
+		display: none
+
+	.clients-belt
+		.client-unit.active-client
+			display: block
+			position: relative
+			margin-left: 0
+			left: auto
+
+			.client-face
+				margin-bottom: 20px
+
+			.client-content
+				padding: 0 30px
+				max-width: 400px
+				margin: 0px auto
+
+			.client-quote-mark
+				left: 15px
+
+
+	.clients-logos
+		display: none

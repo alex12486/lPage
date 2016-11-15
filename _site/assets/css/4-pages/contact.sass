@@ -1,0 +1,40 @@
+.contact-section
+	text-align: center
+
+.social-links
+	max-width: 700px
+	margin: 0 auto 50px
+	+display(flex)
+	+justify-content(space-around)
+	+flex-wrap(wrap)
+
+	a
+		display: block
+		background: $accent
+		+size(50px)
+		line-height: 50px
+		color: #fff
+		border-radius: 50%
+		font-size: 28px
+		+transition
+ 
+		&:hover
+			+transform(scale(1.2)) 
+
+.bar
+	width: 250px
+	height: 0
+	border-top: 4px solid $accent
+	margin: 0 auto 70px
+
+.biglink
+	display: inline-block
+	font-size: 60px
+	font-weight: 300
+	line-height: 1
+	margin-bottom: 100px
+
+
+@media screen and (max-width: 650px)
+	.biglink
+		font-size: 38px

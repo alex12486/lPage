@@ -1,0 +1,61 @@
+#Settings
+
+title: Artists Theme
+description: Thinker // Designer // Developer
+email: alex12486@gmail.com
+avatar: face.jpg
+bg-image: hero-bg.jpg
+blurb: <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong>Odio ipsam deleniti praesentium soluta suscipit fuga natus doloribus, repudiandae provident consequatur deserunt eligendi expedita. Eligendi minima, asperiores, nesciunt esse quis expedita recusandae doloribus quod nam dolor sunt? Alias nam quasi laudantium quaerat, in, sed magni cupiditate necessitatibus quibusdam iure eveniet repudiandae!</p>
+
+
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+
+
+
+
+skills: 
+- {name: Communication, value: 9}
+- {name: Organization, value: 7}
+- {name: Learning, value: 9}
+- {name: Teaching, value: 6}
+- {name: Planning, value: 6}
+- {name: Visual Design, value: 5}
+- {name: UX Design, value: 8}
+- {name: Programming, value: 7}
+
+
+projects:
+- {name: TYPO International Design Talks, folder: 'proj-1'}
+- {name: City-IN website concept, folder: 'proj-2'}
+- {name: Crispy Icons, folder: 'proj-3'}
+- {name: Flat Mobile UI/UX Concept, folder: 'proj-4'}
+- {name: Fresh It Up, folder: 'proj-5'}
+- {name: Timeline Page, folder: 'proj-6'}
+- {name: Weather Dashboard, folder: 'proj-7'}
+- {name: Stripes & Co, folder: 'proj-8'}
+
+
+clients:
+- {name: 'Scott Summers', logo: 'logo1.png', title: 'Director of Design, Quebec Int.', avatar: 'face-aaroni.jpg', comment: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> In ad consequatur rem, aliquam unde quidem numquam doloremque officia optio iure voluptatem! Maiores, atque, exercitationem. Facere iure, id nobis a adipisci, tempora mollitia quae, accusamus totam ut facilis minima ullam. In odit, incidunt! Velit fugit, sequi voluptas iste saepe libero provident!</p>'}
+- {name: 'Scott Summers', logo: 'logo2.png', title: 'Director of Design, Quebec Int.', avatar: 'face-atariboy.jpg', comment: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> In ad consequatur rem, aliquam unde quidem numquam doloremque officia optio iure voluptatem! Maiores, atque, exercitationem. Facere iure, id nobis a adipisci, tempora mollitia quae, accusamus totam ut facilis minima ullam. In odit, incidunt! Velit fugit, sequi voluptas iste saepe libero provident!</p>'}
+- {name: 'Scott Summers', logo: 'logo3.png', title: 'Director of Design, Quebec Int.', avatar: 'face-jackiesaik.jpg', comment: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> In ad consequatur rem, aliquam unde quidem numquam doloremque officia optio iure voluptatem! Maiores, atque, exercitationem. Facere iure, id nobis a adipisci, tempora mollitia quae, accusamus totam ut facilis minima ullam. In odit, incidunt! Velit fugit, sequi voluptas iste saepe libero provident!</p>'}
+- {name: 'Scott Summers', logo: 'logo4.png', title: 'Director of Design, Quebec Int.', avatar: 'face-teleject.jpg', comment: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> In ad consequatur rem, aliquam unde quidem numquam doloremque officia optio iure voluptatem! Maiores, atque, exercitationem. Facere iure, id nobis a adipisci, tempora mollitia quae, accusamus totam ut facilis minima ullam. In odit, incidunt! Velit fugit, sequi voluptas iste saepe libero provident!</p>'}
+
+
+
+social:
+- {icon: 'icon-twitter'}
+- {icon: 'icon-dribbble'}
+- {icon: 'icon-behance'}
+- {icon: 'icon-youtube'}
+- {icon: 'icon-linkedin'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+
+
